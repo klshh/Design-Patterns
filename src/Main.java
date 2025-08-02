@@ -1,4 +1,5 @@
 import DecoratorDesignPattern.CarDeliveryInitializer;
+import StateDesginPattern.TrafficLightInitializer;
 import StrategyDesignPattern.Item;
 import StrategyDesignPattern.ShoppingCart;
 import StrategyDesignPattern.ShoppingCartSystemInitializer;
@@ -9,7 +10,10 @@ public class Main {
 //        iphoneStockObservable.setStockCount(1);
 
 //        ShoppingCartSystemInitializer.systemInitialize();
-        CarDeliveryInitializer.carInitializer();
+//        CarDeliveryInitializer.carInitializer();
+
+        TrafficLightInitializer.startTrafficLight();
+
 
     }
 }
